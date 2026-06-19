@@ -3,12 +3,15 @@ import ddf.minim.*;
 Minim minim;
 AudioPlayer player;
 
+PImage emoji;
+
 //初期ページ指定
 String Page = "Title";
 
 void setup() {
     frameRate(120);
     size(500, 500);
+    emoji = loadImage("thinking.png");
 }
 
 void draw() {
@@ -253,7 +256,9 @@ void Play() {
 
         //負荷軽減
         if (-100 < notey.get(i) + dy && notey.get(i) + dy < height + 100) {
-            line(notex.get(i), notey.get(i) + dy, notex.get(i) + width / 4, notey.get(i) + dy);
+            imageMode(CENTER);
+            // 画像を指定したサイズ(64x64)で描画
+            image(emoji, notex.get(i) + width / 8, notey.get(i) + dy, 64, 64);
         }
 
     }
