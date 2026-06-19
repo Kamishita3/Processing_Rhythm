@@ -1,0 +1,50 @@
+[
+  {
+    "id": "star",
+    "name": "シャイニングスター",
+    "bpm": 158,
+    "offset": -300,
+    "length": "1:34",
+    "diff": "☆17"
+  },
+  {
+    "id": "halzion",
+    "name": "ハルジオン",
+    "bpm": 152,
+    "offset": -250,
+    "length": "5:00",
+    "diff": "☆8"
+  },
+  {
+    "id": "unwelcome",
+    "name": "Unwelcome School",
+    "bpm": 180,
+    "offset": -1150,
+    "length": "2:00",
+    "diff": "☆24"
+  },
+  {
+    "id": "night",
+    "name": "NightTheater",
+    "bpm": 151,
+    "offset": -350,
+    "length": "2:10",
+    "diff": "☆21"
+  },
+  {
+    "id": "heart",
+    "name": "Burning Heart(Nightcore)",
+    "bpm": 172.615,
+    "offset": -300,
+    "length": "4:10",
+    "diff": "☆33"
+  },
+  {
+    "id": "butterfly",
+    "name": "Electric Butterfly",
+    "bpm": 185,
+    "offset": 450,
+    "length": "2:29",
+    "diff": "痙攣"
+  }
+]
