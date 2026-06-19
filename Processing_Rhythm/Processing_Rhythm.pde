@@ -256,9 +256,11 @@ void Play() {
 
         //負荷軽減
         if (-100 < notey.get(i) + dy && notey.get(i) + dy < height + 100) {
-            imageMode(CENTER);
-            // 画像を指定したサイズ(64x64)で描画
-            image(emoji, notex.get(i) + width / 8, notey.get(i) + dy, 64, 64);
+            line(notex.get(i), notey.get(i) + dy, notex.get(i) + width / 4, notey.get(i) + dy);
+
+            //画像を指定したサイズ(64x64)で描画
+            //imageMode(CENTER);
+            //image(emoji, notex.get(i) + width / 8, notey.get(i) + dy, 64, 64);
         }
 
     }
